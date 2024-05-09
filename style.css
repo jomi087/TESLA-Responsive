@@ -1,0 +1,380 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.whitecolor{
+    color:#ffffff;
+    text-align: center;
+
+}
+
+.blackcolor{
+    color: black;
+    text-align: center;
+}
+
+
+
+
+.tesla-logo{
+    height:14px;
+    width: 120px;
+    margin-left: 46px;
+   
+}
+
+/* .menu-size{
+    width: 85px;
+    height: 34px;
+    font-weight: 600;
+    background-image: initial;
+   
+
+} */
+
+.menu-style{
+    font-size: 20px;
+}
+
+.info{
+    width: 150px;
+}
+
+
+.icon{
+    height: 28px;
+    width: 28px; 
+    margin:2px;
+    background-image: initial;
+}
+
+.icon2{
+    height: 24px;
+    width:  24px;
+    margin:2px;
+    background-image: initial;
+}
+
+ul{
+width: 100%;
+display: flex;
+justify-content: center;
+
+} 
+
+.space{
+    cursor: pointer;
+    font-size:19px;
+    font-weight:500;
+    padding-right: 17px;
+    padding-left: 17px;
+    background-color: initial;
+    border: 0;
+
+}
+
+.space:hover{
+    background-color:rgba(128, 128, 128, 0.171);
+} 
+
+.section{
+   margin-top: 40px;
+}
+
+.model{
+    height: 48px;
+    text-align:  center;
+    font-size: 36PX;
+    font-weight: 600;
+    margin-bottom: 0px;
+
+}
+
+
+.subject{
+    height: 50px;
+    padding: 24px;
+    padding-top: 0px;
+    padding-bottom: 14px;
+}
+.price{
+    height: 30px; 
+    text-align:  center;
+    font-size: 20px;
+    font-weight:lighter;
+    margin-bottom:6px;
+
+}
+
+.subject p{
+    text-align: center;
+    
+}
+
+
+.selection{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-wrap: wrap;
+    align-content: end;
+}
+
+
+.box{
+    cursor: pointer;
+    height: 40px;
+    width: 261px;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top:4px;
+    padding-bottom: 4px;
+    border-radius: 4px;
+    margin-bottom: 7px;
+    margin: 6px;
+    border: 0px;
+    
+}
+
+@media (max-width:550px) {
+    .box{
+        width: 100%;
+    }
+    
+}
+
+.oderboxcolor{
+    
+    background-color: rgba(240, 240, 240,0.8);
+}
+.demoboxcolor{
+    
+    background-color: rgba(34, 34, 34,0.65);
+    
+}
+
+.oderlinkcolor{
+    color: rgba(0, 0, 0, 0.432);
+    text-decoration: none;
+}
+
+.demolinkcolor{
+    color: white;
+    text-decoration: none;
+} 
+
+
+.gap{
+    height: 98px;
+}
+
+
+
+.page-one{
+   
+    background-image: url("image/Tesla1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+   
+    
+} 
+
+@media (max-width:550px ) {
+    .page-one{
+        background-image: url("image/Homepage-Model-Y-Mobile-Global.avif");
+        background-size:cover;
+        background-position: center;
+        height: 100vh;
+
+    }
+}
+
+
+
+.page-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("image/Tesla2.jpg");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 104vh;
+   
+    
+} 
+
+ @media (max-width:550px ) {
+    .page-two{
+        background-image: url("image/Homepage-Model-3-Mobile-LHD-v2.avif");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+} 
+
+.page-three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background-image: url("image/Tesla3.jpg");
+    background-size: cover;
+    background-position: center; 
+    height: 105vh;
+   
+    
+} 
+
+ @media (max-width:550px ) {
+    .page-three{
+        background-image: url("image/Homepage-Model-X-Mobile-LHD_001.avif");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+} 
+
+.page-four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    background-image: url("image/Tesla4.jpg");
+    background-size: cover;
+    background-position: center; 
+    height: 105vh;
+   
+    
+} 
+
+ @media (max-width:550px ) {
+    .page-four{
+        background-image: url("image/Homepage-Model-S-Mobile-LHD-6.22.avif");
+        background-size: cover;
+        background-position: center;
+    }
+} 
+
+.page-five{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("image/Tesla5.jpg");
+    background-size: cover;
+    background-position: center; 
+    height: 105vh;
+    
+} 
+
+ @media (max-width:550px ) {
+    .page-five{
+        background-image: url("image/Homepage-Cybertruck-Mobile.avif");
+        background-size: cover;
+        background-position: center;
+    }
+} 
+
+.page-six{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("image/Tesla6.jpg");
+    background-size: cover;
+    background-position: center; 
+    height: 105vh;
+   
+    
+} 
+
+ @media (max-width:550px ) {
+    .page-six{
+        background-image: url("image/Homepage-SolarPanels-01-Mobile.avif");
+        background-size:cover;
+        background-position: center;
+    }
+} 
+
+
+.page-seven{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background-image: url("image/Tesla7.jpg");
+    background-size: cover;
+    background-position: center; 
+    height: 105vh;
+   
+    
+} 
+
+ @media (max-width:550px ) {
+    .page-seven{
+        background-image: url("image/Homepage-SolarPanels-01-Mobile.avif");
+        background-size: cover;
+        background-position: center;
+    }
+} 
+
+.page-eight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("image/Tesla8.jpg");
+    background-size: cover;
+    background-position: center; 
+    height: 105vh;
+   
+    
+} 
+
+ @media (max-width:550px ) {
+    .page-eight{
+        background-image: url("image/Homepage-Powerwall-01-Mobile.avif");
+        background-size: cover;
+        background-position: center;
+    }
+} 
+
+
+.page-nine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background-image: url("image/Tesla9.jpg");
+    background-size: cover;
+    background-position: center; 
+   height: 105vh;
+    
+} 
+
+ @media (max-width:550px ) {
+    .page-nine{
+        background-image: url("image/Homepage-Accessories-Mobile-NA-APAC.avif");
+        background-size: cover;
+        background-position: center;
+    }
+} 
+
+.text-center-size{
+  
+    background-color: rgba(0, 0, 0, 0.308);
+}
+
+
+.refresh{
+    color:black;
+    text-decoration: none;
+
+}
